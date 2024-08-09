@@ -6,7 +6,7 @@ load_dotenv()
 API_KEY = os.getenv("API_KEY") # hid API key in .env file 
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
 
-# Function to convert kevlin into celsius and fahrenheit
+# Function to convert kelvin into celsius and fahrenheit
 def kelvin_to_celsius_farenheight(kelvin):
     celsius = kelvin - 273.15
     fahrenheit = celsius * (9/5) +32
