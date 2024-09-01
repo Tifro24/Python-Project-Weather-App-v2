@@ -1,0 +1,1 @@
+This is a Python built Weather App used to give information regarding the current weather conditions in a given city. It fetches data such as: temperature, weather conditions, humidity and windspeed using the Weather API and conveys it in a clean and readable format. The app also features error handling functions for incorrect inputs or cities that don't have existing info. 
